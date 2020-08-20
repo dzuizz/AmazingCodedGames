@@ -1,13 +1,21 @@
+div {
+  margin: 10px;
+}
+
+div:first-of-type{
+  margin: 0px;
+}
+
+img:first-of-type {
+  width: 50%;
+  height: 250px;
+}
+
 h1 {
   font-size: 75px;
   text-align: center;
 }
-div {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+
 canvas {
   height: 576px;
   padding: 0px;
@@ -15,4 +23,34 @@ canvas {
   border-width: 0px;
   cursor: auto;
   width: 1024px;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+
+input[type = number] {
+  width: 6em;
+}
+
+.pushLeft {
+  text-align: left;
+}
+
+.pushCent {
+  text-align: center;
 }
