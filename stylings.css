@@ -17,30 +17,13 @@ h1 {
 }
 
 canvas {
+  text-align: center;
   height: 576px;
   padding: 0px;
   border-style: none;
   border-width: 0px;
   cursor: auto;
   width: 1024px;
-}
-
-table,
-tr,
-td {
-  border: 1px solid black;
-}
-table {
-  border-collapse: collapse;
-  margin: 0 auto;
-}
-
-tr {
-  height: 20px;
-}
-
-td {
-  width: 20px;
 }
 
 input[type = number] {
@@ -53,4 +36,31 @@ input[type = number] {
 
 .pushCent {
   text-align: center;
+}
+
+.black {
+  background-color: #808080;
+}
+
+#image-container {
+  display: flex;
+}
+
+#table {
+  border-collapse: collapse;
+  margin: 0 auto;: ;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+
+#table,
+tr,
+td {
+  border: 1px solid black;
 }
