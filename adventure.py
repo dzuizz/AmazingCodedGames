@@ -12,8 +12,10 @@ def use(this):
         for key, value in valuables.items:
             if key == this:
                 value = True
-            elif:
+            else:
                 value = False
+    else:
+        valuables[this]= weapons.get(this)
 
 def game():
     time_pause("Welcome to AdventureLand!")
@@ -24,7 +26,7 @@ def game():
         time_pause("On your right is a dark cave.")
         time_pause("On your left is a factory.")
         time_pause("Behind you is a pathway.")
-        time_pause("In your hand, you hold")
+        time_pause("In your hand, you hold your trusty, but not very effective dagger")
         print("House - 1")
         print("Cave - 2")
         print("Factory - 3")
@@ -46,6 +48,7 @@ def game():
             time_pause("")
 
 # shop weapons = {name: [boolean, [strength, price]]}
+# weapons = {name: [boolean, strength]} and armor
 shopWeapons = {
 
     "oldDagger": [True, [10, 0]],
@@ -54,11 +57,8 @@ shopWeapons = {
     "ironSword": [False, [100, 100]],
     "goldSword": [False, [250, 210]],
     "diamondSword": [False, [500, 500]],
-    "enchantedDiamondSword": [False, [100000, 10000]]
-
+    "enchantedDiamondSword": [False, [100000, 10000]],
     }
-
-# weapons = {name: [boolean, strength]} and armor
 weapons = {
 
     "swordOfOgoroth": [False, 1200]

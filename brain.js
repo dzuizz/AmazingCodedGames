@@ -1,3 +1,10 @@
+var c = document.querySelector('#canvas');
+var ctx = c.getContext("2d");
+var image = new Image();
+
+image.onload = function() {
+  
+}
 // Select color input
 var color = document.getElementById('colorPicker').value;
 // Select size input
