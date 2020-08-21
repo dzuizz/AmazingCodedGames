@@ -38,7 +38,7 @@ input[type = number] {
   text-align: center;
 }
 
-.black {
+.grey {
   background-color: #808080;
 }
 
@@ -63,4 +63,7 @@ td {
 tr,
 td {
   border: 1px solid black;
+}
+button {
+  background-color: #808080;
 }
